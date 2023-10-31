@@ -1,0 +1,26 @@
+.logo {
+  height: 5.2rem;
+  animation: logo-spin 4s linear infinite;
+}
+.mainText {
+  position: relative;
+}
+.logoText {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 50%;
+  justify-content: center;
+  margin-left: 10px;
+}
+@keyframes logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .rotate {
+} */
